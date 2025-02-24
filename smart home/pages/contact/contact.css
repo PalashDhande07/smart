@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.class{
+    width: 100%;
+    height: 500px;
+    background: url('support_header_bg.webp');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+@media(max-width: 728){
+    .class{
+        width: 100vw;
+        height: 300px;
+        background: url('support_header_bg.webp');
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    body{
+    
+        width: 100%;
+        height: 800px;
+    }
+}
+    

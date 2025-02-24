@@ -1,0 +1,232 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+   height: 6600px;
+    background-color: #3E3E3E;
+}
+.first{
+    width: 85%;
+    height: 480px;
+     margin: auto;
+     background-color: #272727;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center ;
+     align-items: center;
+}
+.small{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.small2{
+    margin-left: 250px;
+     color: rgb(114, 114, 213);
+     font-size: 300px;
+}
+.second{
+    width: 85%;
+    margin: auto;
+    height: 240px;
+    background: url('it-join-us.webp');
+    background-size: cover;
+   
+    color:white;
+}
+
+.para{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}.third{
+    width: 85%;
+    margin: auto;
+    height: 800px;
+    background-color: #272727;
+    color:white;
+}.claa{
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.box1{
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+    color: rgb(77, 74, 74);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin: 30px;
+    margin-top: -1px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+   
+}
+.nxt {
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    
+   
+}
+.box{
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #272727;
+}
+.bos{
+    height: 230px;
+    width: 150px;
+   
+    margin: 20px;
+    display: flex;
+    background-color: #272727;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+}
+.boxex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#btn{
+    padding: 15px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: #0090FF;
+    color: white;
+    cursor: pointer;
+ margin-top: 50px;
+ border: none;
+}
+.tagfr{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    background: url('installer_app_discounts.webp');
+    background-size: cover;
+   
+}
+.ft{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    background: url('it-agenda-bg-mobile.webp');
+    background-size: cover;
+   
+   
+}
+.fts{
+    width: 85%;
+    height: 420px;
+    margin: auto;
+    background: url('it-certificate-bg-desktop-en.webp');
+    color: white;
+    background-size: cover;  
+   
+}
+.home{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.7)
+      ),url('footer-cta.webp') ;
+    color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tss{
+    margin-left: 55%;
+    padding: 65px;
+}
+.tss button{
+    height: 47px;
+    width: 180px;
+    border-radius: 55px;
+    border: 1px solid blue;
+    cursor: pointer;
+    margin-top: 50px;
+    color: blue;
+}
+.tss button:hover{
+    background-color: #0090FF;
+    color: white;
+}
+.ff img{
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+}
+.class h1{
+    padding-top: 170px; font-size: 45px;
+}
+#m{
+    border-radius: 3px; width: 613px;
+                        height: 43px; border: 1px solid grey; padding: 3px;
+}
+#mess{
+    border-radius: 3px; width: 626px;
+                        height: 100px; border: 1px solid grey; padding: 3px;
+}
+@media (max-width: 799px) {
+    .class h1{
+        padding-top: 170px; font-size: 25px;
+    }
+    #m{
+        border-radius: 3px; width: 353px;
+                        height: 43px; border: 1px solid grey; padding: 3px;
+    }
+    #mess{
+        border-radius: 3px; width: 353px;
+                            height: 100px; border: 1px solid grey; padding: 3px;
+    }
+}
